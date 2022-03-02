@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Class Joiner</title>
+    <link rel="icon" href = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmoN-LCPfjIn6S5CZZHDzctVlW066FxIK5Dkx9urFfUtM1jP6EsCHjNZG37vNrKntVZLQ&usqp=CAU">
+</head>
+<body>
+    
+    <div class="header">
+        <h1 class = "title">Online Class Joiner</h1>
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <div id="navigation_bar" class="topnav">
+        <a href="/Homepage/index.html"><i class="ri-home-4-line"></i></a>
+        <a href="about.html">Our Planning process</a>
+        <a href="/Bag_Packer/index.html">Backpacker</a>
+        <a href="/Class_Joiner_Website/index.html">Online Class Joiner</a>
+        <a href="/Timetable/index.html">Class Timetable</a>
+        <a href="/Writing_Practice/index.html">Writing Practice</a>
+        
+    </div>
+    <style>
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+        border: none;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none !important;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        transition: 0.4s;
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    </style>
+    <div id="Change_Links">
+        <a href = "link_editor.html" target = "_blank"><button class = "link_editor" id = "link_editor">Change the subjects and links</button></a>
+        
+    </div>
+    <div id="refresh_div">
+        <button id="refresh" class="refresh">Refresh</button>
+    </div>
+    <div id="links" class = "linkButtons">
+        
+    </div>
+    
+    <div id="timetable">
+        <embed id = "timetableframe" src="ClassTime_Table_Feb_22__Offline_Online__-_7B (1).pdf" width="800px" height="2100px" />
+    </div>
+</body>
+
+<script src="cookies.js"></script>
+<script type = "text/javascript" src="scriptwithjson.js"></script>
+<script src="refresh.js"></script>
+<link rel="stylesheet" href="styles.css">
+</html>
